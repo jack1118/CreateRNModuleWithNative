@@ -20,3 +20,15 @@ const AwesomeNativeModule = NativeModules.AwesomeNativeModule
 export function multiply(a: number, b: number): Promise<number> {
   return AwesomeNativeModule.multiply(a, b);
 }
+
+export function divide(a: number, b: number): Promise<number> {
+  return AwesomeNativeModule.divide(a, b);
+}
+
+export function add(a: number, b: number): Promise<number> {
+  return AwesomeNativeModule.add(a, b);
+}
+
+export function minus(a: number, b: number): Promise<number> {
+  return AwesomeNativeModule.minus(a, b);
+}

@@ -20,5 +20,26 @@ class AwesomeNativeModuleModule(reactContext: ReactApplicationContext) : ReactCo
     
     }
 
+    @ReactMethod
+    fun divide(a: Int, b: Int, promise: Promise) {
+
+      promise.resolve(a / b)
+
+    }
+
+    @ReactMethod
+    fun add(a: Int, b: Int, promise: Promise) {
+
+      promise.resolve(a + b)
+
+    }
+
+    @ReactMethod
+    fun minus(a: Int, b: Int, promise: Promise) {
+
+      promise.resolve(a - b)
+
+    }
+
     
 }
