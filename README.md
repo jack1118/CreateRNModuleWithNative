@@ -2,6 +2,14 @@
 
 react native native module
 
+## The module is created by
+
+To create new project, run the following:
+
+```sh
+npx create-react-native-library react-native-awesome-module
+```
+
 ## Installation
 
 ```sh
